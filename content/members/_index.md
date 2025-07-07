@@ -18,7 +18,7 @@ Team A members
 
 ---
 
-### Andy Chen
+## Andy Chen
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -41,7 +41,7 @@ Team A members
 
 ---
 
-### Chloe Huang
+## Chloe Huang
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
