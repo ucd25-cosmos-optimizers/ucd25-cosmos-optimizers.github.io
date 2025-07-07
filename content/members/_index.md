@@ -18,7 +18,7 @@ Team A members
 
 ---
 
-### Snoopy
+### Andy Chen
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -41,7 +41,7 @@ Team A members
 
 ---
 
-### Woodstock
+### Chloe Huang
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -64,7 +64,7 @@ Team A members
 
 ---
 
-## Charlie Brown
+## Jacob Wang
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
@@ -87,7 +87,7 @@ Team A members
 
 ---
 
-## Lucy Van Pelt
+## Joshua Wu
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
