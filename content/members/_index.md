@@ -51,12 +51,12 @@ Team A members
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Woodstock is ...
+      Chloe is a high schooler from the Bay Area. When not working on her spreadsheets and data science projects, she also likes to read, listen to music, and bake.
     </p>
     <ul style="margin: 0; padding-left: 20px;">
-      <li>AAA</li>
-      <li>BBB</li>
-      <li>CCC</li>
+      <li>intj</li>
+      <li>dancer</li>
+      <li>miffy enthusiast</li>
     </ul>
   </div>
 
