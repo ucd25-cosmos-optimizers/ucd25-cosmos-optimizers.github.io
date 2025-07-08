@@ -22,8 +22,8 @@ Team A members
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="snoopy.jpeg"
-       alt="Snoopy"
+  <img src="andy.jpeg"
+       alt="Andy"
        style="width: 150px; height: 150px; object-fit: cover; border-radius: 0%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
@@ -45,8 +45,8 @@ Team A members
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="woodstock.jpeg"
-       alt="Woodstock"
+  <img src="chloe.jpeg"
+       alt="Chloe"
        style="width: 150px; height: 150px; object-fit: cover; border-radius: 25%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
@@ -68,8 +68,8 @@ Team A members
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="charlie.jpeg"
-       alt="Charlie Brown"
+  <img src="jacob.jpeg"
+       alt="Jacob"
        style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
@@ -91,8 +91,8 @@ Team A members
 
 <div class="member-block" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
 
-  <img src="lucy.jpeg"
-       alt="Lucy Van Pelt"
+  <img src="joshua.jpeg"
+       alt="Joshua"
        style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; object-position: center; flex-shrink: 0;">
 
   <div style="flex: 1; text-align: left;">
