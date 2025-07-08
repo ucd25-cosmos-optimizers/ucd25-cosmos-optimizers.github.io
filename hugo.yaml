@@ -10,7 +10,7 @@ params:
   profileMode:
     enabled: true
     title: "The Optimizers"
-    subtitle: "yay!"
+    subtitle: "yay"
     imageUrl: "butter.jpeg"
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
