@@ -7,6 +7,7 @@ params:
   defaultTheme: auto
   disableThemeToggle: true
   ShowToc: false
+  math: True
   profileMode:
     enabled: true
     title: "The Optimizers"
@@ -26,8 +27,19 @@ menu:
       name: Project
       url: /project/
       weight: 20
-
+    - identifier: Example
+      name: Example
+      url: /example/
+      weight: 30
+    
 markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - $$
+            - $$
+        enable: true
