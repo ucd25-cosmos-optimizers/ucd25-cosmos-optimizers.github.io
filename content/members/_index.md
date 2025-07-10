@@ -74,12 +74,12 @@ The Optimizers members
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Charlie Brown is ...
+      Jacob is a high schooler from Fremont in the Bay Area.
     </p>
     <ul style="margin: 0; padding-left: 20px;">
-      <li>AAA</li>
-      <li>BBB</li>
-      <li>CCC</li>
+      <li>badminton</li></li>
+      <li>cubing</li>
+      <li>tetris</li>
     </ul>
   </div>
   
