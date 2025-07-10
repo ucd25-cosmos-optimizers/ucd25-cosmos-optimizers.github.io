@@ -27,10 +27,14 @@ menu:
       name: Project
       url: /project/
       weight: 20
+    - identifier: Mini Project
+      name: Mini Project
+      url: /miniproject/
+      weight: 30
     - identifier: Example
       name: Example
       url: /example/
-      weight: 30
+      weight: 40
     
 markup:
   goldmark:
