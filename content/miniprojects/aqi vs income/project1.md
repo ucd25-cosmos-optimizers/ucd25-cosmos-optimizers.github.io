@@ -1,3 +1,9 @@
+---
+title: "Average Income vs Air Quality"
+date: 2025-07-11
+author: "The Opps"
+---
+
 ## Introduction
 
 The purpose of this study is to evaluate the correlation between **air quality** and **average income** across all Californian counties. The **parameter of concern** is all such counties in California. Our **null hypothesis** states that there is **no correlation between air quality of an area and that area’s average income**.
