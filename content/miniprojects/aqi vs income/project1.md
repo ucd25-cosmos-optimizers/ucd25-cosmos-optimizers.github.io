@@ -12,7 +12,7 @@ The purpose of this study is to evaluate the correlation between **air quality**
 
 ## Data
 
-We collected data on **median AQI (Air Quality Index)** as an indicator of air pollution exposure by county and **2023 average income** per county in California.
+We collected data on **median AQI (Air Quality Index)** as an indicator of air pollution exposure by county and **2023 average income** per county in the United States.
 
 <iframe src="/plotly/figure.html" width="100%" height="400px" style="border:none;"></iframe>
 
