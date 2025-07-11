@@ -27,9 +27,9 @@ menu:
       name: Project
       url: /project/
       weight: 20
-    - identifier: Mini Project
-      name: Mini Project
-      url: /miniproject/
+    - identifier: Mini Projects
+      name: Mini Projects
+      url: /miniprojects/
       weight: 30
     - identifier: Blog
       name: Blog
