@@ -32,7 +32,7 @@ We used this regression model to assess:
 
 ![Scatterplot of Median AQI vs. Average Income per County](/aqi_income_regression.png)
 
->The above plot visualizes the relationship between **median AQI** and **average income** for each Californian county, with the regression line overlaid.
+>The above plot visualizes the relationship between **median AQI** and **average income** for each United States county, with the regression line overlaid.
 ---
 
 ## Discussion
