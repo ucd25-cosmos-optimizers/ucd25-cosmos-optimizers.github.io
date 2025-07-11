@@ -14,6 +14,4 @@ $$
 
 ---
 
-Git was difficult.
-
-![Git](git.png#center)
+![Mascots](theoppmascots.jpg#center)
