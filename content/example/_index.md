@@ -1,4 +1,4 @@
 ---
-title: "Example"
+title: "Blog"
 ---
-Example
+check out our blog
