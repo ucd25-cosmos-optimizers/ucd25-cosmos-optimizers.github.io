@@ -1,4 +1,4 @@
 ---
 title: "Blog"
 ---
-check out our blog
+Check out our blog
