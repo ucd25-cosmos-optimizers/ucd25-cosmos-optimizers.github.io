@@ -6,7 +6,7 @@ author: "The Opps"
 
 ## Introduction
 
-The purpose of this study is to evaluate the correlation between **air quality** and **average income** across all Californian counties. The **parameter of concern** is all such counties in California. Our **null hypothesis** states that there is **no correlation between air quality of an area and that area’s average income**.
+The purpose of this study is to evaluate the correlation between **air quality** and **average income** across all United States counties. The **parameter of concern** is all such counties in the United States. Our **null hypothesis** states that there is **no correlation between air quality of an area and that area’s average income**.
 
 ---
 
