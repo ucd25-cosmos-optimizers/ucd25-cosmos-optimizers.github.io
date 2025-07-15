@@ -97,7 +97,7 @@ The Optimizers members
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Lucy Van Pelt is ...
+      Joshua is a high schooler from the Bay Area. When not structuring and analyzing data, he enjoys trying new food, listening to music, and hanging out with friends.
     </p>
     <ul style="margin: 0; padding-left: 20px;">
       <li>AAA</li>
