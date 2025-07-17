@@ -1,0 +1,9 @@
+<div class="author" style="margin-bottom: 2rem;">
+  <div style="display: flex; align-items: center;">
+    <img src="{{ .Get "image" }}" alt="{{ .Get "name" }}" style="width: 150px; height: 150px; border-radius: 25%; margin: 0 2rem 1rem 0;">
+    <div style="flex: 1; text-align: left; align-self: flex-start;">
+      <h2 style="margin: 0; margin-bottom: 0.7rem;">{{ .Get "name" }}</h2>
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+</div>
