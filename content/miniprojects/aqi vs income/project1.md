@@ -1,6 +1,6 @@
 ---
 title: "Average Income vs Air Quality"
-date: 2025-07-11
+date: 2025-07-09
 author: "The Opps"
 ---
 
