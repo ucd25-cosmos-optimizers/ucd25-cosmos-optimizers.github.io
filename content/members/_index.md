@@ -28,13 +28,8 @@ The Optimizers members
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Snoopy is a lovable beagle and one of the most iconic characters from the Peanuts comic strip, created by Charles M. Schulz. 
+      Andy Chen is a student from San Jose, California. In his free time, he enjoys watching movies, playing games, and eating new foods.
     </p>
-    <ul style="margin: 0; padding-left: 20px;">
-      <li>Loyal companion of Charlie Brown</li>
-      <li>Loves root beer and pizza</li>
-      <li>Sleeps on top of his doghouse, not inside it/li>
-    </ul>
   </div>
 
 </div>
@@ -53,11 +48,6 @@ The Optimizers members
     <p style="margin: 0; padding-top: 0.5em;">
       Chloe is a high schooler from the Bay Area. When not working on her spreadsheets and data science projects, she also likes to read, listen to music, and bake.
     </p>
-    <ul style="margin: 0; padding-left: 20px;">
-      <li>intj</li>
-      <li>dancer</li>
-      <li>miffy enthusiast</li>
-    </ul>
   </div>
 
 </div>
@@ -74,13 +64,8 @@ The Optimizers members
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Jacob is a high schooler from Fremont in the Bay Area.
+      Jacob is a student from Fremont in the Bay Area. Some of his interests include, cubing, tetris, and badminton.
     </p>
-    <ul style="margin: 0; padding-left: 20px;">
-      <li>badminton</li></li>
-      <li>cubing</li>
-      <li>tetris</li>
-    </ul>
   </div>
   
 </div>
@@ -97,13 +82,8 @@ The Optimizers members
 
   <div style="flex: 1; text-align: left;">
     <p style="margin: 0; padding-top: 0.5em;">
-      Joshua is a high schooler from the Bay Area. When not structuring and analyzing data, he enjoys trying new food, listening to music, and hanging out with friends.
+      Joshua is a student from the Bay Area. When not structuring and analyzing data, he enjoys trying new food, listening to music, and hanging out with friends.
     </p>
-    <ul style="margin: 0; padding-left: 20px;">
-      <li>AAA</li>
-      <li>BBB</li>
-      <li>CCC</li>
-    </ul>
   </div>
   
 </div>
