@@ -1,0 +1,6 @@
+.DS_Store
+
+# hugo generated
+/public/
+/resources/
+.hugo_build.lock

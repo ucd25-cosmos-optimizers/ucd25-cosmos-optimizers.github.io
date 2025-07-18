@@ -1,0 +1,22 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "The Optimizers"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  # mainSections = ["section1", "section2"]
+  description = "My awesome website"
+
+# [params.author]
+#   name = "Andy"
+#   image = "img/kyle_circle.png"
+#   headline = "The Ops for Optimized Spelling"
+#   bio = "I write code and such"
+#   links = [
+#     { github = "https://github.com/ucd25-cosmos-optimizers" }
+#   ]
