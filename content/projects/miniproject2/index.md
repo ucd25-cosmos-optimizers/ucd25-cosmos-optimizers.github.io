@@ -65,7 +65,7 @@ We used two techniques to visualize high-dimensional data in 2D:
   - **Average popularity, runtime, and vote averages** for each cluster.
   - **Sample movie titles** to provide concrete examples from each group.
 
-![Genre Composition](/genre_composition_by_cluster.svg "**Genre composition percentages** within each **cluster**")
+![Genre Composition](/genre_composition_by_cluster.svg "**Genre composition percentages** within **each cluster**")
 
 ---
 
