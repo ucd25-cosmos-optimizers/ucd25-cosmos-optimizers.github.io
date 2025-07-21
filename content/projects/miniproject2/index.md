@@ -73,15 +73,16 @@ We used two techniques to visualize high-dimensional data in 2D:
 
 Our analysis found that **movie features like popularity, runtime, and vote averages are roughly normally distributed** with some outliers, and that **genres have low correlations with these features**. Using both elbow and silhouette methods, we determined that **five clusters were optimal**.
 
-We then used **PCA and t-SNE to simplify the data into two dimensions**, making it easier to see how movies cluster together, with **t-SNE providing clearer separation**.
+We then used **PCA and t-SNE to simplify the data into two dimensions**, making it easier to see how movies cluster together. **t-SNE did a better job of separating similar movies into distinct groups**.
 
 **Here’s what we found:**
-- **Cluster 0**: Mostly **Action and Drama**, with some **Sci-Fi**.
-- **Cluster 1**: Almost entirely **Comedy**.
-- **Cluster 2**: Mix of **Action, Drama, and Comedy**.
-- **Cluster 3**: Entirely **Horror**.
-- **Cluster 4**: Most diverse, including **Comedy, Drama, Romance, Action, and Sci-Fi**.
+- **Cluster 0** mostly includes **Action and Drama movies**, with some **Sci-Fi** mixed in.
+- **Cluster 1** is **almost entirely Comedy**.
+- **Cluster 2** has a mix of **Action, Drama, and Comedy**.
+- **Cluster 3** is made up **entirely of Horror movies**.
+- **Cluster 4** is most diverse, including **Comedy, Drama, Romance, Action, and Sci-Fi**.
 
-These insights show that our data **naturally groups movies by genre and performance**, which can be useful for **recommendation systems, marketing strategies, and understanding viewer preferences**.
+These insights show that our data **naturally groups movies by genre and performance**, which can be useful for things like **recommendation systems, marketing strategies, and understanding viewer preferences**.
 
 ---
+
