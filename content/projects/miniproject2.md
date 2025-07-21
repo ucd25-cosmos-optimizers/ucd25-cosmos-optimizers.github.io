@@ -19,8 +19,16 @@ We made use of a dataset that included information about various features of mov
 
 ## **Feature Analysis**
 - Visualized distributions using **histograms and boxplots**.
+
+![Histograms and Boxplots](distributions.svg)
+
 - Created **scatter plot matrices** to illustrate relationships and correlations between quantitative features.
+
+![Scatter Plot Matrix](scatter_matrix.svg)
+
 - Generated a **correlation heatmap** to identify possible linear relationships between genre flags, popularity scores, runtime durations, and vote average ratings.
+
+![Correlation Heatmap](correlation_heatmap.svg)
 
 ## **Clustering Preparation**
 - **Standardized features** using `StandardScaler` to ensure all features contributed equally to clustering, preventing features with larger scales from dominating distance calculations.
@@ -28,10 +36,14 @@ We made use of a dataset that included information about various features of mov
   - **Elbow Method**: Assessed within-cluster sum of squares (WCSS) for different cluster counts, with the "elbow" point indicating diminishing returns when adding more clusters.
   - **Silhouette Scores**: Measured how similar objects are to their own cluster compared to other clusters; higher silhouette scores indicate better-defined clusters.
 
+![Elbow Method and Silhouette Scores](elbow_silhouette.svg)
+
 ## **Dimensionality Reduction**
 We used two techniques to visualize high-dimensional data in 2D:
 - **Principal Component Analysis (PCA)**: Linear dimension reduction projecting data onto orthogonal axes maximizing variance to obtain uncorrelated principal components.
 - **t-Distributed Stochastic Neighbor Embedding (t-SNE)**: Nonlinear probabilistic algorithm minimizing Kullback–Leibler divergence between joint probability distributions of high-dimensional and low-dimensional data to preserve local neighborhood structure for visualization.
+
+![PCA and t-SNE Graphs](PCA_t-SNE.svg)
 
 ## **K-means Clustering**
 - Used **K-means** to group movies into the **five identified clusters**.
@@ -40,6 +52,8 @@ We used two techniques to visualize high-dimensional data in 2D:
   - **Genre composition**: Percentage of each genre within each cluster to identify dominant genres.
   - **Average popularity, runtime, and vote averages** for each cluster.
   - **Sample movie titles** to provide concrete examples from each group.
+
+![Genre Composition](genre_composition_by_cluster.svg)
 
 ---
 
