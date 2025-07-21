@@ -5,7 +5,7 @@ weight = 10
 description = 'Analyzing trends within similar movies based on different metrics'
 tags = []
 pageName = "miniproject2"
-icon = 'web'
+icon = 'movie'
 draft = false
 +++
 
