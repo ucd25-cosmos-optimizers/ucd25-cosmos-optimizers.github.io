@@ -2,7 +2,7 @@
 title = 'Mini Project 0: Classmate Survey'
 date = 2025-07-18T14:00:00-04:00
 weight = 4
-description = 'description here'
+description = 'Asking our classmates questions.'
 tags = []
 pageName = "classmatesurvey"
 icon = 'people'
