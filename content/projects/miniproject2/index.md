@@ -1,3 +1,15 @@
++++
+title = 'Mini Project 2: Clustering Movies Based on Characteristics'
+date = 2025-07-20T14:00:00-04:00
+weight = 10
+description = 'Analyzing trends within similar movies based on different metrics'
+tags = []
+pageName = "miniproject2"
+icon = 'web'
+draft = false
++++
+
+
 # **Introduction**
 
 The purpose of our study was to utilize machine learning techniques to effectively group movies with their characteristics in order to provide insights into applications such as **market segmentation and recommendation settings**.
