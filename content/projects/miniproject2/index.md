@@ -36,4 +36,13 @@ We received 20 responses out of 19 cluster mates, which means one person submitt
 
 The responses we received were relatively uniform because we restricted the formats of the answers in the Google Form, but they still required some cleaning. First, we imputed the average rating for missing dining hall food ratings. We also parsed wake up times to datetime format and got rid of unreasonable times (e.g. 3 am). Finally, we changed the last two questions' categorical answers to boolean format.
 
-After data cleaning, we were left with 
+After data cleaning, we were left with 9 entries. This result means that less than half of our cluster mates were taking this survey seriously, with the rest of them submitting joking responses.
+
+---
+
+## Discussion
+
+We discovered the following:
+
+1. The average rating of the dining hall food was **3.7** out of 5, with the lower rating being a **3**. This suggests that most COSMOS students in Cluster 11 enjoy the food at UC Davis. However, **no one rated the food a 5**, so there is still some room for improvement.
+2. 
