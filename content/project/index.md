@@ -1,6 +1,7 @@
 +++
 title = "Project"
-
+showReadingTime = false
+showDate = false
 +++
 </br>
 
