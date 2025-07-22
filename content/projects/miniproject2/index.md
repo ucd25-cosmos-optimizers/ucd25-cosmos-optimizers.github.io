@@ -1,10 +1,10 @@
 +++
-title = 'Mini Project 0: Classmate Survey'
+title = 'Mini Project 2: Classmate Survey'
 date = 2025-07-18T14:00:00-04:00
 weight = 10
 description = 'Asking our classmates questions.'
 tags = []
-pageName = "classmatesurvey"
+pageName = "miniproject2"
 icon = 'people'
 draft = false
 +++
