@@ -1,5 +1,5 @@
 +++
-title = "Projects"
+title = "Project"
 externalName = "GitHub"
 cascade = [
     { groupByYear = false },
