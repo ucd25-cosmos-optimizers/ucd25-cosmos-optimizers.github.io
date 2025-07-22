@@ -10,8 +10,6 @@ cascade = [
 githubUrl = 'https://github.com/ucd25-cosmos-optimizers'
 +++
 
-# Project Title
-
 ## Introduction
 
 ------------
