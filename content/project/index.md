@@ -4,7 +4,6 @@ showReadingTime = false
 showDate = false
 showPagination = false
 +++
-</br>
 
 ## Introduction
 
