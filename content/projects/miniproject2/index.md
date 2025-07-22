@@ -44,5 +44,5 @@ After data cleaning, we were left with 9 entries. This result means that less th
 
 We discovered the following:
 
-1. The average rating of the dining hall food was **3.7** out of 5, with the lower rating being a **3**. This suggests that most COSMOS students in Cluster 11 enjoy the food at UC Davis. However, **no one rated the food a 5**, so there is still some room for improvement.
+1. The average rating of the dining hall food was **3.7** out of 5, with the lowest rating being a **3**. This suggests that most COSMOS students in Cluster 11 enjoy the food at UC Davis. However, **no one rated the food a 5**, so there is still some room for improvement.
 2. 
