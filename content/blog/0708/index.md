@@ -5,3 +5,5 @@ draft = false
 +++
 
 hello, world
+
+![the opps mascots](theoppmascots.jpg)
