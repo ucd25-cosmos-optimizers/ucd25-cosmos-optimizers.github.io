@@ -1,7 +1,7 @@
 +++
 title = 'Mini Project 1: Average Income vs Air Quality'
 date = 2025-07-18T14:00:00-04:00
-weight = 5
+weight = 500
 description = 'Evaluating the correlation between air quality and average income across a majority of United States counties.'
 tags = []
 pageName = "miniproject1"
