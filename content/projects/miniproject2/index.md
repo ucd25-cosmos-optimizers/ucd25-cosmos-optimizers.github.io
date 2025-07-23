@@ -45,4 +45,13 @@ After data cleaning, we were left with 9 entries. This result means that less th
 We discovered the following:
 
 1. The average rating of the dining hall food was **3.7** out of 5, with the lowest rating being a **3**. This suggests that most COSMOS students in Cluster 11 enjoy the food at UC Davis. However, **no one rated the food a 5**, so there is still some room for improvement.
-2. 
+2. People have **varied opinions** on the number 7.
+3. In terms of wake-up time, we saw two peaks at **6:45** and **7:30**, corresponding to the early and late risers, respectively.
+4. People overwhelmingly approved of their roommate, with **over half of the ratings being a 5**.
+5. Whether or not to steal Joshua's Macbook **polarized our cluster mates**, with an practically even split both ways. However, those who did want to steal Joshua's Macbook were very enthusiastic about it, with an overwhelming majority answering **"very yes"** rather than just **"yes"**.
+6. **3 students** reported that their name was Jordan, which is **1/3 of our cluster**. These results are surprising, considering that only 1 person in our cluster is actually named Jordan.
+
+We also looked for correlations between reponses to different questions by creating a heatmap showing linear correlation coefficients for all possible pairs of questions. We discovered the following:
+
+1. **People who rated their roommate higher tended to not want to steal Joshua's Macbook**. Perhaps some cluster mates were projecting their feelings about their roommates on Joshua. Alternatively, those who like their roommate more might be more kind-hearted and not want to inflict suffering on Joshua by stealing his Macbook. Both theories require further investigation.
+2. **People named Jordan were less likely to steal Joshua's Macbook**.
