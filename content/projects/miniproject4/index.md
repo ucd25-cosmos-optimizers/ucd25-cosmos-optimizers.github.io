@@ -1,7 +1,7 @@
 +++
-title = 'Mini Project 3: Copper Futures Price Forecasting Using BiLSTM'
+title = 'Mini Project 4: Copper Futures Price Forecasting Using BiLSTM'
 date = 2025-07-29T14:00:00-04:00
-weight = 5
+weight = 100
 description = 'Predicting the stock price of the copper future'
 tags = []
 pageName = "miniproject3"
