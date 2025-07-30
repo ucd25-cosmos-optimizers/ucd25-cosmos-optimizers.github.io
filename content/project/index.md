@@ -11,7 +11,6 @@ Epilepsy, also known as seizure disorder, is a medical condition characterized b
 ## Data
 
  vs. non‑epileptic EEG epochs using five electrode channels (A1, C3, C4, CZ, F3).
---------
 
 ## Methodology
 
