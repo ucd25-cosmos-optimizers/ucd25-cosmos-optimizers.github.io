@@ -6,17 +6,27 @@ showPagination = false
 +++
 
 ## Introduction
--------
+
 Epilepsy, also known as seizure disorder, is a medical condition characterized by recurring seizures due to abnormal electrical activity in the brain. In the United States, epilepsy affects almost 3 million adults. There are many ways to detect epileptic behavior in the brain, including electroencephalogram (**EEG**), magnetic resonance imaging (**MRI**), and computed tomography (**CT**) scans. 
 
-However, what makes EEG such a popular method to measure brain activity is its excellent temporal resolution, relatively low cost, and noninvasive nature. It is able to measure brain activity through recording electrical activity in a patient's skull and scalp. Despite this, symptoms of epilepsy are not guaranteed to be present at all times of data collection. Thus, this process can take long periods of monitoring, generating large amounts of data.
+However, what makes EEG such a popular method to measure brain activity is its excellent temporal resolution, relatively low cost, and noninvasive nature. It is able to measure brain activity by recording electrical activity through a patient's skull and scalp. Despite this, symptoms of epilepsy are not guaranteed to be present at all times of data collection. Thus, this process can take long periods of monitoring, generating large amounts of data.
 
 Our motivation for this project is to be able to automate the process of identifying abnormality within brain activity patterns of EEG data, making the process to diagnosis of epilepsy faster for patients. Following a structed data science pipeline, our objective is to build a binary classification model to determine whether or not a patient is epileptic given EEG data.
 
+---------
 ## Data
 
- vs. non‑epileptic EEG epochs using five electrode channels (A1, C3, C4, CZ, F3).
+ Our data is sourced from hospital EEG recordings of healthy and epileptic patients, recorded across five electrode channels. The exact nodes are as follows.
+ 
+ - A1: Placed on the ear to measure the average of all electrodes
+ - C3: Placed on the left primary motor cortex, measures motor movement of the right hand
+ - C4: Placed on the left primary motor cortex, measures motor movement of the right arm
+ - CZ: Placed on the center top of the head, measures possible temporal lobe epilepsy
+ - F3: Placed on the left frontal lobe, measures motor control and imagined movement
+  
+The data contains 411 recordings of people (**epochs**) per channel over 25 minutes at a sampling frequency of 200 Hz.
 
+--------
 ## Methodology
 
 --------
