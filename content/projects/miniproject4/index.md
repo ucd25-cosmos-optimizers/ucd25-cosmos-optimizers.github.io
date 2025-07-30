@@ -17,18 +17,18 @@ Copper plays an **extremely important** role in the global economy, with uses sp
 We utilized various different datasets that consisted of **historical daily closing prices** of copper futures obtained from different exchanges. Our datasets included **data from several years**, allowing our model to **learn from past behaviors** and thus **adapt to both long-term patterns and short-term volatility**. We mainly used **Yahoo Finance** via its **yfinance API**, incorporating its **adjusted closing price (`Adj close`)**.
 
 ## Methodology
-### Preprocessing:
+### Preprocessing
 - Handled any **missing values**
 - **Normalized prices** through MinMax scaling on a [0,1] range
 - Created **sequence generation** for supervised learning
 - Chose a **sliding window of 30**
 - **Split data** in a 70:30 ratio of training and testing sets respectively to **ensure no shuffling**
 
-### Model Design:
+### Model Design
 
 We used a **Bidirectional LSTM neural network** as we believed it would be beneficial in **understanding both forward and backward time dependencies and variables**, which is important especially in time-series data like financial forecasting. 
 
-### Model Structure:
+### Model Structure
 - The model was built to take in a 30-day window of past copper prices and **predict the next day's price**. 
 - It uses a single Bidirectional LSTM (`BiLSTM`) layer with **64 hidden units**, which helps the model **learn patterns from both past and future directions in the time series**. 
 - A **simple linear layer** at the end outputs the predicted price.
