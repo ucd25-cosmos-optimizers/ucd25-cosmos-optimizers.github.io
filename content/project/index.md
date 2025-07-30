@@ -11,6 +11,9 @@ Epilepsy, also known as seizure disorder, is a medical condition characterized b
 
 However, what makes EEG such a popular method to measure brain activity is its excellent temporal resolution, relatively low cost, and noninvasive nature. It is able to measure brain activity by recording electrical activity through a patient's skull and scalp. Despite this, symptoms of epilepsy are not guaranteed to be present at all times of data collection. Thus, this process can take long periods of monitoring, generating large amounts of data.
 
+![Process of EEG Detection](/eeg_image.png "EEG signals capturing brain activity to detect epilepsy")
+
+
 Our motivation for this project is to be able to automate the process of identifying abnormality within brain activity patterns of EEG data, making the process to diagnosis of epilepsy faster for patients. Following a structed data science pipeline, our objective is to build a binary classification model to determine whether or not a patient is epileptic given EEG data.
 
 ---------
