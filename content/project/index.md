@@ -29,7 +29,7 @@ Our motivation for this project is to be able to automate the process of identif
 
 ![EEG Nodes for Dataset](/eeg_nodes.png "Brain nodes of EEG dataset used for epilepsy detection")
   
-The data contains 411 recordings of people (**epochs**) per channel over 25 minutes at a sampling frequency of 200 Hz.
+The data contains 411 recordings of people (**epochs**) per channel over 25 minutes at a sampling frequency of 200 Hz. Labels of healthy (visualized in blue) and epileptic (visualized in red) were given. 
 
 --------
 ## Methodology
@@ -37,6 +37,8 @@ The data contains 411 recordings of people (**epochs**) per channel over 25 minu
 ### Data Cleaning
 
 We applied a bandpass filter to filter out unwanted noise, such as background electrical activity. We kept the frequencies 0.5 Hz to 45 Hz, which corresponds to the range of alpha, beta, gamma, and delta waves. See our code (here). 
+
+A visualization of sample EEG waves across channels found that for the same epoch, wave patterns remained consistent across channels. 
 
 --------
 
