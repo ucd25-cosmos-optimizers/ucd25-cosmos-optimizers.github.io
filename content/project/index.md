@@ -38,7 +38,11 @@ The data contains 411 recordings of people (**epochs**) per channel over 25 minu
 
 We applied a bandpass filter to filter out unwanted noise, such as background electrical activity. We kept the frequencies 0.5 Hz to 45 Hz, which corresponds to the range of alpha, beta, gamma, and delta waves. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/andy/notebooks/bandpass%20filter.ipynb" target = "_blank">here</a>. 
 
+![Bandpass Graph](/bandpass_graph.png "Graph of bandpass filter on EEG data")
+
 A visualization of sample EEG waves across channels found that for the same epoch, wave patterns remained consistent across channels. 
+
+![Sample Wave Channels](/wave_channels.png "Sample waves across electro channels")
 
 --------
 
