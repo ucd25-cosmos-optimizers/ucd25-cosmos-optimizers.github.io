@@ -27,7 +27,7 @@ Our motivation for this project is to be able to automate the process of identif
  - CZ: Placed on the center top of the head, measures possible temporal lobe epilepsy
  - F3: Placed on the left frontal lobe, measures motor control and imagined movement
 
-![EEG Nodes for Dataset](/eeg_nodes.png "Brain nodes of EEG dataset used for epilepsy detection")
+![EEG Nodes for Dataset](/eeg_nodes.png "Electrode channels collected in the EEG dataset")
   
 The data contains 411 recordings of people (**epochs**) per channel over 25 minutes at a sampling frequency of 200 Hz. Labels of healthy (visualized in blue) and epileptic (visualized in red) were given. 
 
@@ -38,11 +38,15 @@ The data contains 411 recordings of people (**epochs**) per channel over 25 minu
 
 We applied a bandpass filter to filter out unwanted noise, such as background electrical activity. We kept the frequencies 0.5 Hz to 45 Hz, which corresponds to the range of alpha, beta, gamma, and delta waves. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/andy/notebooks/bandpass%20filter.ipynb" target = "_blank">here</a>. 
 
-![Bandpass Graph](/bandpass_graph.png "Graph of bandpass filter on EEG data")
+![Bandpass Graph](/bandpass_graph.png "Sample of bandpass filter on one epoch of EEG data")
 
 A visualization of sample EEG waves across channels found that for the same epoch, wave patterns remained consistent across channels. 
 
-![Sample Wave Channels](/wave_channels.png "Sample waves across electro channels")
+![Sample Wave Channels](/wave_channels.png "Sample waves of epochs across electrode channels")
+
+#### Feature Extraction
+
+Even with filtered data, the number of timepoints (28,500) is too many to fit into a model. Thus, we extracted statistical measurements (**features**) from the data, reducing computional costs of our models. The following features were extracted: 
 
 --------
 
