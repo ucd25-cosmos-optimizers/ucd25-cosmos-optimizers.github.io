@@ -5,7 +5,7 @@ weight = 485
 description = 'Predicting the stock price of the copper future'
 tags = []
 pageName = "miniproject4"
-icon = 'cloud'
+icon = 'chart'
 draft = false
 +++
 
