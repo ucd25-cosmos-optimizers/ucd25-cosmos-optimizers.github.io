@@ -23,7 +23,7 @@ Our motivation for this project is to be able to automate the process of identif
  
  - A1: Placed on the ear to measure the average of all electrodes
  - C3: Placed on the left primary motor cortex, measures motor movement of the right hand
- - C4: Placed on the left primary motor cortex, measures motor movement of the right arm
+ - C4: Placed on the right primary motor cortex, measures motor movement of the left hand
  - CZ: Placed on the center top of the head, measures possible temporal lobe epilepsy
  - F3: Placed on the left frontal lobe, measures motor control and imagined movement
   
