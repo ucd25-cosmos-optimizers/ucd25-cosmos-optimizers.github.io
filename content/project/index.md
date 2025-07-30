@@ -26,11 +26,10 @@ Our motivation for this project is to be able to automate the process of identif
  - C4: Placed on the right primary motor cortex, measures motor movement of the left hand
  - CZ: Placed on the center top of the head, measures possible temporal lobe epilepsy
  - F3: Placed on the left frontal lobe, measures motor control and imagined movement
-  
-The data contains 411 recordings of people (**epochs**) per channel over 25 minutes at a sampling frequency of 200 Hz.
 
 ![EEG Nodes for Dataset](/eeg_nodes.png "Brain nodes of EEG dataset used for epilepsy detection")
-
+  
+The data contains 411 recordings of people (**epochs**) per channel over 25 minutes at a sampling frequency of 200 Hz.
 --------
 ## Methodology
 
