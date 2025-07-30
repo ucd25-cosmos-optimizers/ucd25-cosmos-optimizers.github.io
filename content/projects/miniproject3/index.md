@@ -1,7 +1,7 @@
 +++
 title = 'Mini Project 3: Clustering Movies Based on Characteristics'
 date = 2025-07-20T14:00:00-04:00
-weight = 15
+weight = 490
 description = 'Analyzing trends within similar movies based on different metrics'
 tags = []
 pageName = "miniproject3"
