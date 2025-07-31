@@ -36,7 +36,7 @@ The data contains 411 recordings of people (**epochs**) per channel over 25 minu
 
 ### Data Cleaning
 
-We applied a bandpass filter to filter out unwanted noise, such as background electrical activity. We kept the frequencies 0.5 Hz to 45 Hz, which corresponds to the range of alpha, beta, gamma, and delta waves. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/andy/notebooks/bandpass%20filter.ipynb" target = "_blank">here</a>. 
+We applied a bandpass filter to filter out unwanted noise, such as background electrical activity. We kept the frequencies 0.5 Hz to 45 Hz, which corresponds to the range of alpha, beta, gamma, and delta waves. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/bandpass%20filter.ipynb" target = "_blank">here</a>. 
 
 ![Bandpass Graph](/bandpass_graph.png "Sample of bandpass filter on one epoch of EEG data")
 
@@ -58,7 +58,7 @@ We also separated each eeg wave into its composite brain waves. Because our data
 
 All together, we preliminarily extracted 41 features.
 
-Check out our code [here].
+Check out our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/feature%20extraction.ipynb" target = "_blank">here</a>.
 
 ### EDA
 
