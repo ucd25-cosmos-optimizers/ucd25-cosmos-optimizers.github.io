@@ -96,6 +96,8 @@ A correlation heatmap the these selected features show that most variables with 
 
 Some correlations between the **spectral mean** and **basic statistical features** are significantly larger for epileptic eeg samples compared to healthy samples. These correlations can be used to classify eeg signals in our models.
 
+### Modeling
+
 --------
 
 ## Discussion
