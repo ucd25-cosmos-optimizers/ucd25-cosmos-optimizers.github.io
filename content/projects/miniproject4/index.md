@@ -13,11 +13,11 @@ draft = false
 
 Copper plays an **extremely important** role in the global economy, with uses spanning from infrastructure to electronics. The **purpose** of our study is to **better understand** the behavior of copper within our stock market, specifically the **copper future prices**. We chose to utilize a **Bidirectional Long Short-Term Memory (`BiLSTM`)** model in order to accurately take into consideration both forward and backward moving variables, based on historical data from three sources: **CME Group / COMEX Copper (`HG`), Shanghai Futures Exchange (`CU`), and London metal exchange (`CA`)**.
 
-| Exchange (venue code)                       | Contract unit        | Price quote   | Typical trading hours (local)         | Warehouse/delivery system                                   | Tick size                                                      |
+| Exchange (venue code)                       | Contract unit        | Price quote   | Warehouse/delivery system                                   | Tick size                                                      |
 | ------------------------------------------- | -------------------- | ------------- | ------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------- |
-| **London Metal Exchange – LME Copper (CA)** | 25 metric tonnes     | USD per tonne | 01:00-19:00 London (ring + LMEselect) | Global LME-approved sheds; *“warrants”* transferable        | USD 0.10/tonne ([Lme][1])                                      |
-| **Shanghai Futures Exchange – SHFE 铜 (CU)** | 5 t                  | CNY per ton   | 09:00-15:00 & 21:00-02:00 Beijing     | Mainland China warehouses; VAT & import‐quota rules apply   | ¥10/ton (≈USD 1.4) ([tsite.shfe.com.cn][2], [Barchart.com][3]) |
-| **CME Group / COMEX Copper (HG)**           | 25 000 lb (≈11.34 t) | USD ¢ per lb  | 18:00-17:00 ET (electronically)       | U.S. COMEX-licensed warehouses; deliverable Grade 1 cathode | USD 0.0005/lb ([CME Group][4], [CME Group][5])                 |
+| **London Metal Exchange – LME Copper (CA)** | 25 metric tonnes     | USD per tonne | Global LME-approved sheds; *“warrants”* transferable        | USD 0.10/tonne ([Lme][1])                                      |
+| **Shanghai Futures Exchange – SHFE 铜 (CU)** | 5 t                  | CNY per ton   | Mainland China warehouses; VAT & import‐quota rules apply   | ¥10/ton (≈USD 1.4) ([tsite.shfe.com.cn][2], [Barchart.com][3]) |
+| **CME Group / COMEX Copper (HG)**           | 25 000 lb (≈11.34 t) | USD ¢ per lb  | U.S. COMEX-licensed warehouses; deliverable Grade 1 cathode | USD 0.0005/lb ([CME Group][4], [CME Group][5])                 |
 
 [1]: https://www.lme.com/en/metals/non-ferrous/lme-copper/contract-specifications?utm_source=chatgpt.com "Contract specifications | London Metal Exchange"
 [2]: https://tsite.shfe.com.cn/eng/market/futures/metal/cu/index.html?utm_source=chatgpt.com "Copper"
