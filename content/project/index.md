@@ -101,6 +101,10 @@ Some correlations between the **spectral mean** and **basic statistical features
 --------
 ## Results
 
+||||Model 1|Model 2|Model 3|
+| --| --|--| --| --| --|
+| **Accuracy** |||hi|hi|hi|
+| **Precision** |||hi|hi|hi|
 --------
 
 ## Discussion
