@@ -84,7 +84,7 @@ A correlation heatmap of all of the features we extracted for the electrode chan
 
 We selected the top 15 features from each electrode channel using the **F-Test**, leaving us with a much more managable 75 features in total. The **F-Test** is a statistical test used to measure the significance of a feature compared to the label (healthy or epileptic).
 
-Explore our code [here].
+Explore our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/feature%20selection.ipynb" target = "_blank">here</a>.
 
 A correlation heatmap the these selected features show that most variables with 0 linear correlation to the labels have been removed. As expected, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** are all kept. 
 
