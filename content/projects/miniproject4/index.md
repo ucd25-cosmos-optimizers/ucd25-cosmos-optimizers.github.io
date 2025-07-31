@@ -36,6 +36,15 @@ Copper plays an **extremely important** role in the global economy, with uses sp
 ## Data
 We utilized various different datasets that consisted of **historical daily closing prices** of copper futures obtained from different exchanges. Our datasets included **data from several years**, allowing our model to **learn from past behaviors** and thus **adapt to both long-term patterns and short-term volatility**. We mainly used **Yahoo Finance** via its **yfinance API**, incorporating its **adjusted closing price (`Adj close`)**.
 
+![Copper Prices Comparison](/copper_prices_comparison.svg "Comparison of Copper Price Closing Prices")
+
+![Model Results COMEX US](/model_results_COMEX_US.svg)
+
+![Model Results LME London](/model_results_LME_London.svg)
+
+![Model Results SHFE China](/model_results_SHFE_China.svg)
+
+
 ## Methodology
 ### Preprocessing
 - Handled any **missing values**
@@ -54,6 +63,9 @@ We used a **Bidirectional LSTM neural network** as we believed it would be benef
 - A **simple linear layer** at the end outputs the predicted price.
 - Training was done over 50 epochs with a batch size of 64. 
 - The model used the **Mean Squared Error (`MSE`)** as its loss function and the **Adam optimizer**, which is well-suited for time-series problems like this.
+
+![COMEX Price Prediction](/comex_prediction.svg "BiLSTM Model Copper Price Prediction")
+
 
 ## Discussion
 The BiLSTM model **demonstrated extremely strong predictive ability**:
