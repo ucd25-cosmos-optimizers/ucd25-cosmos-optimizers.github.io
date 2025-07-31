@@ -82,6 +82,8 @@ When looking at this heatmap two observations stand out:
 1. We can start to see some features that might be more important to the final model. In particular, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** have stronger correlations with the **label** (healthy or epileptic) compared to other features.
 2. Many features have a perfect linear correlation, or very weak correlation. As such, we can save computing power by selecting only the most important features to feed into our models. 
 
+![New Correlation Heatmap of Features A1](/new_corr_heatmap.png "Refined Correlation Heatmap for Extracted Features on the A1 dataset")
+
 --------
 
 ## Discussion
