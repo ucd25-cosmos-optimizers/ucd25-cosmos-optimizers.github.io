@@ -100,16 +100,18 @@ Some correlations between the **spectral mean** and **basic statistical features
 
 We compared multiple classes of models to see which would be the most effective. Below are some that we tried:
 
-**Logistic Regression**: fits a "best-fit" line, then uses that line to calculate the probability of categorical outcomes (in this case healthy or epileptic). View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/logistic%20regression.ipynb" target = "_blank">here</a>. 
+**Logistic Regression**: A parametric model that fits a "best-fit" line, then uses that line to calculate the probability of categorical outcomes (in this case healthy or epileptic). View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/logistic%20regression.ipynb" target = "_blank">here</a>. 
+
+**K-Nearest Neighbors**: A non-parametric model that classifies points based on the majority classification of their "k" nearest neighbors. In our model, "k" was optimised to  8. See our code [here].
 
 --------
 ## Results
 
-|           | Logistic Regression | Model 2 | Model 3 |
+|           | Logistic Regression | K-NN | Model 3 |
 | :--------:  | :-------: | :-------: | :-------: | 
-| Accuracy  |   0.82    |   hi    |    hi   | 
-| Precision |   0.87    |   hi    |    hi   |
-| Recall    |   0.77    |   hi    |    hi   |
+| Accuracy  |   0.82    |   0.83    |    hi   | 
+| Precision |   0.87    |   0.81    |    hi   |
+| Recall    |   0.77    |   0.88    |    hi   |
 
 --------
 
