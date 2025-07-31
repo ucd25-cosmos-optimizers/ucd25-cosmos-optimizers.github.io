@@ -98,6 +98,10 @@ Some correlations between the **spectral mean** and **basic statistical features
 
 ### Modeling
 
+We compared multiple classes of models to see which would be the most effective. Below are some that we tried:
+
+**Logistic Regression**: fits a "best-fit" line, then uses that line to calculate the probability of categorical outcomes (in this case healthy or epileptic). View our code [here]. 
+
 --------
 ## Results
 
