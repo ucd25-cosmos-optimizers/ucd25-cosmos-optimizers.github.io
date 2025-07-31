@@ -107,7 +107,8 @@ We compared multiple classes of models to see which would be the most effective.
 --------
 ## Results
 
-|           | Logistic Regression | K-NN | Model 3 |
+
+|             | <div style="width:100px">Logistic Regression</div>   | <div style="width:100px">K-NN</div>  | <div style="width:100px">Model 3</div> |
 | :--------:  | :-------: | :-------: | :-------: | 
 | Accuracy  |   0.82    |   0.83    |    hi   | 
 | Precision |   0.87    |   0.81    |    hi   |
