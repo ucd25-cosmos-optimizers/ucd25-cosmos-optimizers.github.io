@@ -49,7 +49,9 @@ A visualization of sample EEG waves across channels found that for the same epoc
 Even with filtered data, the number of timepoints (28,500) is too many to fit into a model. Thus, we extracted statistical measurements (**features**) from the data, reducing computional costs of our models. The following features were extracted: 
 
 **Basic statistical features** like mean, median, range, quartiles, variance, standard deviation, skew, and kurtosis (measures the relative number of outliers).
+
 **Wave features** like signal intensity, signal trend, zero crossing rate (number of times the signal changes signs), and number of peaks.
+
 **Spectral features (frequency domain features)** like spectral centroid (frequency-weighted average), spectral bandwidth, spectral rolloff (85% cutoff rate), and peak frequency.
 
 Check out our code [here].
