@@ -94,6 +94,8 @@ A correlation heatmap the these selected features show that most variables with 
 
 ![Difference Correlation Heatmap of Features A1](/diff_corr_heatmap.png "Difference in Correlation Heatmap of the A1 dataset: Healthy vs. Epileptic")
 
+Some correlations between the **spectral mean** and **basic statistical features** are significantly larger for epileptic eeg samples compared to healthy samples. These correlations can be used to classify eeg signals in our models.
+
 --------
 
 ## Discussion
