@@ -67,22 +67,30 @@ Even with filtered data, the number of timepoints (28,500) is too many to fit in
 
 We also separated each eeg wave into its composite brain waves. Because our data was downsampled to 20 Hz, as per the Nyquist-Shannon Sampling Theorem, we are only able to accurately capture frequencies from 0-10 Hz. This allows us to evaluate delta (0.5-4 Hz), theta (4-7 Hz), and parts of alpha (8-12 Hz) waves. We did not have the data to evaluate beta (12-30 Hz) and gamma (30-100 Hz) waves. The low-frequency brain waves we did evaluate are associated with subconscious or relaxed brains states. We extracted **basic statistical features** regarding the composite delta, theta, and low alpha waves. 
 
-All together, we preliminarily extracted 41 features.
+All together, we preliminarily extracted 41 features per electrode channel, 205 features in total.
 
 Check out our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/feature%20extraction.ipynb" target = "_blank">here</a>.
 
 ### EDA
 
-Here is a correlation heatmap of all of the features we extracted for the electrode channel A1.
+A correlation heatmap of all of the features we extracted for the electrode channel A1 reveals two main useful insights.
 
 ![Correlation Heatmap of Features A1](/correlation_heatmap.png "Initial Correlation Heatmap for Extracted Features on the A1 dataset")
 
-When looking at this heatmap two observations stand out:
-
 1. We can start to see some features that might be more important to the final model. In particular, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** have stronger correlations with the **label** (healthy or epileptic) compared to other features.
-2. Many features have a perfect linear correlation, or very weak correlation. As such, we can save computing power by selecting only the most important features to feed into our models. 
+2. Many features have a perfect linear correlation, or very weak correlation. As such, we can save computing power by selecting only the most important features to feed into our models.
 
-![New Correlation Heatmap of Features A1](/new_corr_heatmap.png "Refined Correlation Heatmap for Extracted Features on the A1 dataset")
+#### Selecting Features
+
+We selected the top 15 features from each electrode channel using the **F-Test**, leaving us with a much more managable 75 features in total. The **F-Test** is a statistical test used to measure the significance of a feature compared to the label (healthy or epileptic).
+
+Explore our code [here].
+
+
+
+![New Correlation Heatmap of Features A1](/new_corr_heatmap.png "Correlation Heatmap for Selected Features on the A1 dataset")
+
+
 
 --------
 
