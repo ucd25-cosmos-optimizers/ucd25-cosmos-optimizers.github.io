@@ -92,6 +92,7 @@ A correlation heatmap the these selected features show that most variables with 
 
 ![Split Correlation Heatmap of Features A1](/split_corr_heatmap.png "Split Correlation Heatmap of the A1 dataset: Healthy vs. Epileptic")
 
+![Difference Correlation Heatmap of Features A1](/diff_corr_heatmap.png "Difference in Correlation Heatmap of the A1 dataset: Healthy vs. Epileptic")
 --------
 
 ## Discussion
