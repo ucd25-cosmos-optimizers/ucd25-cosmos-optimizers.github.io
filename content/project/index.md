@@ -19,7 +19,7 @@ However, what makes EEG such a popular method to measure brain activity is its e
 
 Our motivation for this project is to be able to automate the process of identifying abnormality within brain activity patterns of EEG data, making the process to diagnosis of epilepsy faster for patients. 
 
-Automation with identification of EEG is especially important because of some difficulties when dealing with EEG. 
+Automation with identification of EEG is especially important because of some difficulties when dealing with EEG, burdening experts and reducing efficiency: 
 
  1. There are small amounts of epilepsy data available simply due to the infrequency of seizure       occurences.
  2. Presence of noise and artifacts in the data disturbs learning brain patterns during ictal cases.
