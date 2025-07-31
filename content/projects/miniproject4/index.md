@@ -38,11 +38,11 @@ We utilized various different datasets that consisted of **historical daily clos
 
 ![Copper Prices Comparison](/copper_prices_comparison.svg "Comparison of Copper Price Closing Prices")
 
-![Model Results COMEX US](/model_results_COMEX_US.svg)
+![Model Results COMEX US](/model_results_COMEX_US.svg "Model Training for COMEX US")
 
-![Model Results LME London](/model_results_LME_London.svg)
+![Model Results LME London](/model_results_LME_London.svg "Model Training for LME London")
 
-![Model Results SHFE China](/model_results_SHFE_China.svg)
+![Model Results SHFE China](/model_results_SHFE_China.svg "Model Training for SHFE China")
 
 
 ## Methodology
