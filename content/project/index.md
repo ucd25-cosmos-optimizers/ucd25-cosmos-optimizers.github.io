@@ -19,6 +19,8 @@ However, what makes EEG such a popular method to measure brain activity is its e
 
 Our motivation for this project is to be able to automate the process of identifying abnormality within brain activity patterns of EEG data, making the process to diagnosis of epilepsy faster for patients. 
 
+Automation with identification of EEG is especially important because of some difficulties when dealing with EEG. Firstly, there are small amounts of epilepsy data available simply due to the infrequency of seizure occurences. Additionally, presence of noise and artifacts in the data disturbs learning brain patterns during ictal cases. Finally, inconsistency in seizure activitation among different patients also hinders pattern learning.  
+
 Following a structed data science pipeline, our objective is to build a binary classification model to determine whether or not a patient is epileptic given EEG data.
 
 ---------
