@@ -106,7 +106,7 @@ We compared multiple classes of models to see which would be the most effective.
 ## Results
 
 |           | Model 1 | Model 2 | Model 3 |
-| --------  | ------- | ------- | ------- | 
+| :--------:  | :-------: | :-------: | :-------: | 
 | Accuracy  |   hi    |   hi    |    hi   | 
 | Precision |   hi    |   hi    |    hi   |
 | Recall    |   hi    |   hi    |    hi   |
