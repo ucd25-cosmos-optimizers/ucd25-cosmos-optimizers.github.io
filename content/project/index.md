@@ -54,6 +54,10 @@ Even with filtered data, the number of timepoints (28,500) is too many to fit in
 
 **Spectral features (frequency domain features)** like spectral centroid (frequency-weighted average), spectral bandwidth, spectral rolloff (85% cutoff rate), and peak frequency.
 
+We also separated each eeg wave into its composite brain waves. Because our data was downsampled to 20 Hz, as per the Nyquist-Shannon Sampling Theorem, we are only able to accurately capture frequencies from 0-10 Hz. This allows us to evaluate delta (0.5-4 Hz), theta (4-7 Hz), and parts of alpha (8-12 Hz) waves. We did not have the data to evaluate beta (12-30 Hz) and gamma (30-100 Hz) waves. The low-frequency brain waves we did evaluate are associated with subconscious or relaxed brains states. We extracted **basic statistical features** regarding the composite delta, theta, and low alpha waves. 
+
+All together, we preliminarily extracted 41 features
+
 Check out our code [here].
 
 ### EDA
