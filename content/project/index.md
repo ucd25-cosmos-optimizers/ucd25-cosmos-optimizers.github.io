@@ -77,7 +77,7 @@ A correlation heatmap of all of the features we extracted for the electrode chan
 
 ![Correlation Heatmap of Features A1](/correlation_heatmap.png "Initial Correlation Heatmap for Extracted Features on the A1 dataset")
 
-1. We can start to see some features that might be more important to the final model. In particular, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** have stronger correlations with the **label** (healthy or epileptic) compared to other features.
+1. The heatmap shows some features that might be more important to the final model. In particular, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** have stronger correlations with the **label** (healthy or epileptic) compared to other features.
 2. Many features have a perfect linear correlation, or very weak correlation. As such, we can save computing power by selecting only the most important features to feed into our models.
 
 #### Selecting Features
@@ -86,7 +86,7 @@ We selected the top 15 features from each electrode channel using the **F-Test**
 
 Explore our code [here].
 
-
+A correlation heatmap the these selected features show that most variables with 0 linear correlation to the labels have been removed. As expected, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** are all kept. 
 
 ![New Correlation Heatmap of Features A1](/new_corr_heatmap.png "Correlation Heatmap for Selected Features on the A1 dataset")
 
