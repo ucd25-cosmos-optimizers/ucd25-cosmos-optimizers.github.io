@@ -48,7 +48,7 @@ A visualization of sample EEG waves across channels found that for the same epoc
 
 Even with filtered data, the number of timepoints (28,500) is too many to fit into a model. Thus, we extracted statistical measurements (**features**) from the data, reducing computional costs of our models. The following features were extracted: 
 
-![Correlation Heatmap of Features A1](/correlation_heatmap.png "Correlation Heatmap for Extracted Features on the A1 dataset")
+![Correlation Heatmap of Features A1](/correlation_heatmap.png "Initial Correlation Heatmap for Extracted Features on the A1 dataset")
 
 --------
 
