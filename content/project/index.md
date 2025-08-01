@@ -25,7 +25,7 @@ Automation with identification of EEG is especially important because of some di
  2. Presence of noise and artifacts in the data disturbs learning brain patterns during ictal cases.
  3. Inconsistency in seizure activitation among different patients also hinders pattern learning.  
 
-Following a structed data science pipeline, our objective is to build a binary classification model to determine whether or not a patient is epileptic given EEG data.
+Following a structured data science pipeline, our objective is to build a binary classification model to determine whether or not a patient is epileptic given EEG data.
 
 ---------
 ## Data
