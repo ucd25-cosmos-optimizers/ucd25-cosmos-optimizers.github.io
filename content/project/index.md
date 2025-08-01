@@ -102,9 +102,11 @@ We compared multiple classes of models to see which would be the most effective.
 
 **Logistic Regression**: A parametric model that fits a "best-fit" line, then uses that line to calculate the probability of categorical outcomes (in this case healthy or epileptic). View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/logistic%20regression.ipynb" target = "_blank">here</a>. 
 
-**K-Nearest Neighbors**: A non-parametric model that classifies points based on the majority classification of their "k" nearest neighbors. In our model, "k" was optimised to  8. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/knn.ipynb" target = "_blank">here</a>.
+**K-Nearest Neighbors**: A non-parametric model that classifies points based on the majority classification of their "k" nearest neighbors. In our model, "k" was optimized to  8. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/knn.ipynb" target = "_blank">here</a>.
 
-**Decision Tree**: A non-parametric model that makes a tree-like series of decisions conditionally classifying each instance. In our model, the depth of the tree was optimised to 3. Check out our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/decision%20tree.ipynb" target = "_blank">here</a>.
+**Decision Tree**: A non-parametric model that makes a tree-like series of decisions conditionally classifying each instance. In our model, the depth of the tree was optimized to 3. Check out our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/decision%20tree.ipynb" target = "_blank">here</a>.
+
+**Random Forest**: A non-parametric model that takes the average of many decision trees, each trained on a random subset of data, reducing overfitting. In our model, the number of decision trees is optimized 200, and the maximum depth of each tree is optimized to 6. View our code [here]. 
 
 --------
 ## Results
@@ -124,24 +126,28 @@ We compared multiple classes of models to see which would be the most effective.
       <th style="width:100px; text-align:center;">Logistic Regression</th>
       <th style="width:100px; text-align:center;">K-NN</th>
       <th style="width:100px; text-align:center;">Decision Tree</th>
+     <th style="width:100px; text-align:center;">Random Forest</th>
     </tr>
     <tr>
       <td style="text-align:center;">Accuracy</td>
       <td style="text-align:center;">0.82</td>
       <td style="text-align:center;">0.83</td>
       <td style="text-align:center;">0.75</td>
+     <td style="text-align:center;">0.86</td>
     </tr>
     <tr>
       <td style="text-align:center;">Precision</td>
       <td style="text-align:center;">0.87</td>
       <td style="text-align:center;">0.81</td>
       <td style="text-align:center;">0.70</td>
+     <td style="text-align:center;">0.86</td>
     </tr>
     <tr>
       <td style="text-align:center;">Recall</td>
       <td style="text-align:center;">0.77</td>
       <td style="text-align:center;">0.88</td>
       <td style="text-align:center;">0.88</td>
+     <td style="text-align:center;">0.86</td>
     </tr>
   </table>
 </div>
