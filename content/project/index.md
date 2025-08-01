@@ -190,3 +190,7 @@ Spectral (frequency) features are the most considered across both models. C4 is 
 
 In this project, we explored how to build an effective model with very limited (downsampled) data, which could have practical implications in areas that do not have the technical capibilities to collect the full range of EEG data. In the future, we hope to future explore data from other electrode channels as well as higher frequencies to create more accurate predictions that properly mirror how EEG data will be found in the real world.
 
+-----------
+
+See our entire workflow <a href="https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/eeg.ipynb" target = "_blank">here</a>.
+
