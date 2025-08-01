@@ -147,6 +147,7 @@ To us, recall is the most important metric, since undiagnosed and therefore untr
       <th style="width:100px; text-align:center;">Decision Tree</th>
      <th style="width:100px; text-align:center;">Random Forest</th>
      <th style="width:100px; text-align:center;">Gradient Boosted Regression Tree</th>
+     <th style="width:100px; text-align:center;">SVM</th>
      <th style="width:100px; text-align:center;">MLP</th>
     </tr>
     <tr>
@@ -156,6 +157,7 @@ To us, recall is the most important metric, since undiagnosed and therefore untr
       <td style="text-align:center;">0.75</td>
      <td style="text-align:center;">0.86</td>
      <td style="text-align:center;">0.87</td>
+     <td style="text-align:center;">0.84</td>
      <td style="text-align:center;">0.88</td>
     </tr>
     <tr>
@@ -165,6 +167,7 @@ To us, recall is the most important metric, since undiagnosed and therefore untr
       <td style="text-align:center;">0.70</td>
      <td style="text-align:center;">0.86</td>
      <td style="text-align:center;">0.86</td>
+     <td style="text-align:center;">0.84</td>
      <td style="text-align:center;">0.88</td>
     </tr>
     <tr>
@@ -174,6 +177,7 @@ To us, recall is the most important metric, since undiagnosed and therefore untr
       <td style="text-align:center;">0.88</td>
      <td style="text-align:center;">0.86</td>
      <td style="text-align:center;">0.88</td>
+     <td style="text-align:center;">0.86</td>
      <td style="text-align:center;">0.88</td>
     </tr>
   </table>
