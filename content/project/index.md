@@ -118,7 +118,7 @@ We compared multiple classes of models to see which would be the most effective.
 <div align="center">
   <table>
     <tr>
-      <th style="width:100px; text-align:center;">Model</th>
+      <th style="width:60px; text-align:center;">Model</th>
       <th style="width:100px; text-align:center;">Logistic Regression</th>
       <th style="width:100px; text-align:center;">K-NN</th>
       <th style="width:100px; text-align:center;">Model 3</th>
