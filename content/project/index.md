@@ -116,13 +116,32 @@ We compared multiple classes of models to see which would be the most effective.
 
 
 <div align="center">
-
-| Model | <div style="width:100px">Logistic Regression</div> | <div style="width:100px">K-NN</div> | <div style="width:100px">Model 3</div> |
-|:--------:|:-------:|:-------:|:-------:|
-| Accuracy  |   0.82    |   0.83    |    hi   | 
-| Precision |   0.87    |   0.81    |    hi   |
-| Recall    |   0.77    |   0.88    |    hi   |
-
+  <table>
+    <tr>
+      <th style="width:100px; text-align:center;">Model</th>
+      <th style="width:100px; text-align:center;">Logistic Regression</th>
+      <th style="width:100px; text-align:center;">K-NN</th>
+      <th style="width:100px; text-align:center;">Model 3</th>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Accuracy</td>
+      <td style="text-align:center;">0.82</td>
+      <td style="text-align:center;">0.83</td>
+      <td style="text-align:center;">hi</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Precision</td>
+      <td style="text-align:center;">0.87</td>
+      <td style="text-align:center;">0.81</td>
+      <td style="text-align:center;">hi</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Recall</td>
+      <td style="text-align:center;">0.77</td>
+      <td style="text-align:center;">0.88</td>
+      <td style="text-align:center;">hi</td>
+    </tr>
+  </table>
 </div>
 
 --------
