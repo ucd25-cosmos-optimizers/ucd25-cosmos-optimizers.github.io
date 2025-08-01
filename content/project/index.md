@@ -184,3 +184,7 @@ While neural nets like Multilayer Perceptrons are more like "black boxes," we ca
 
 ![Comparison of Feature Importance](/discussion.png "Comparing feature importance between logistic regression and random forest models")
 
+In general, spectral (frequency) features are the most important. C4 is the most important electrode channel, perhaps because it is the only electrode channel in our data that is placed on the right side of the brain.
+
+In this project, we explored how to build an effective model with very limited (downsampled) data, which could have practical implications in areas that do not have the technical capibilities to collect the full range of eeg data. In the future, we hope to future explore data from other electrode channels as well as higher frequencies to create more accurate predictions that properly mirror how eeg data will be found in the real world.
+
