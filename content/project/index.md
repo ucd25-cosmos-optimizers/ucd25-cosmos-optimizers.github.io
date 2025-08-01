@@ -112,7 +112,7 @@ We compared multiple classes of models to see which would be the most effective.
 
 **Random Forest**: A non-parametric model that takes the average of many decision trees, each trained on a random subset of data, reducing overfitting. In our model, the number of decision trees is optimized 200, and the maximum depth of each tree is optimized to 6. View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/random%20forest.ipynb" target = "_blank">here</a>. 
 
-![Random Forest](/rand_forest.png "Random Forest of Feature Importance")
+![Random Forest](/rand_forest.png "Random forest top 10 most important features")
 
 --------
 ## Results
