@@ -133,13 +133,6 @@ We used a few different metrics to compare how well our models perform:
 
 To us, recall is the most important metric, since undiagnosed and therefore untreated epilepsy can be very dangerous, sometimes even leading to death.
 
-| <div style="text-align: center">Model</div> | <div style="text-align: center; width:100px">Logistic Regression</div> | <div style="text-align: center; width:100px">K-NN</div> | <div style="text-align: center; width:100px">Model 3</div> |
-|:--------:|:-------:|:-------:|:-------:|
-| Accuracy  |   0.82    |   0.83    |    0.75   | 
-| Precision |   0.87    |   0.81    |    0.70   |
-| Recall    |   0.77    |   0.88    |    0.88   |
-
-
 <div align="center">
   <table>
     <tr>
