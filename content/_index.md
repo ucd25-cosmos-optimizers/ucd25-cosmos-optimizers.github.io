@@ -1,4 +1,4 @@
 
-![The Optimizers](/theoppsmascots.jpg)
+![The Optimizers](/theoppmascots.jpg)
 
 # The Optimizers
