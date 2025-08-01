@@ -119,6 +119,8 @@ We compared multiple classes of models to see which would be the most effective.
 
 **Gradient Boosted Classification Tree**: A non-parametric model like random forest, but each tree is trained sequentially off of the errors of the last tree. In our model, the maximum depth of each tree is optimized to 3, the number of decision trees is optimized to 300, and the learning rate of each tree is optimized to 0.5. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/gradient%20boosted%20classification%20tree.ipynb" target = "_blank">here</a>.
 
+**Support Vector Machine (SVM)**: A non-parametric model that finds the optimal hyperplane to separate data into classes. Our model uses a radial basis kernel to transform our data into a linearly separable form. Check out our code <a href = 'https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/support%20vector%20machine.ipynb' target = "_blank">here</a>.
+
 **Multilayer Perceptron (MLP)**: A machine learning model and type of neural network. Our model consists of three hidden layers, bringing the feature dimensions from 75 to 64 to 32 to 16 to finally 1. Each hidden layer uses the ReLu activation function, and the output passes through a Sigmoid function to format it for binary classification. In our model, the dropout rate is optimized to 0.3, and the number of training epochs is optimized to 51. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/neural%20network.ipynb" target = "_blank">here</a>.
 
 ![Multilayer Perceptron (MLP)](/multi_layer_percep.png "Multilayer perceptron (MLP) diagram")
