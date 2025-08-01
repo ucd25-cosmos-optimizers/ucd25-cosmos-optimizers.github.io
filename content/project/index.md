@@ -104,7 +104,7 @@ We compared multiple classes of models to see which would be the most effective.
 
 **K-Nearest Neighbors**: A non-parametric model that classifies points based on the majority classification of their "k" nearest neighbors. In our model, "k" was optimised to  8. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/knn.ipynb" target = "_blank">here</a>.
 
-**Decision Tree**: A non-parametric model that makes a tree-like series of decisions conditionally classifying each instance. In our model, the depth of the tree was optimised to 3. Check out our code [here].
+**Decision Tree**: A non-parametric model that makes a tree-like series of decisions conditionally classifying each instance. In our model, the depth of the tree was optimised to 3. Check out our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/decision%20tree.ipynb" target = "_blank">here</a>.
 
 --------
 ## Results
