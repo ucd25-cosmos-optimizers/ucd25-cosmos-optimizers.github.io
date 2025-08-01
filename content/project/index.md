@@ -102,7 +102,7 @@ We compared multiple classes of models to see which would be the most effective.
 
 **Logistic Regression**: A parametric model that fits a "best-fit" line, then uses that line to calculate the probability of categorical outcomes (in this case healthy or epileptic). View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/logistic%20regression.ipynb" target = "_blank">here</a>. 
 
-![Logistic Regression](/log_reg.png "Logistic Regression Feature Importance")
+![Logistic Regression](/log_reg.png "Logistic Regression Top 10 Most Important Features")
 
 **K-Nearest Neighbors**: A non-parametric model that classifies points based on the majority classification of their "k" nearest neighbors. In our model, "k" was optimized to  8. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/knn.ipynb" target = "_blank">here</a>.
 
