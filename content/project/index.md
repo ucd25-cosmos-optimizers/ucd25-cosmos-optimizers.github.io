@@ -118,7 +118,7 @@ We compared multiple classes of models to see which would be the most effective.
 
 **Multilayer Perceptron (MLP)**: A machine learning model and type of neural network. Our model consists of three hidden layers, bringing the feature dimensions from 75 to 64 to 32 to 16 to finally 1. Each hidden layer uses the ReLu activation function, and the output passes through a Sigmoid function to format it for binary classification. In our model, the dropout rate is optimized to 0.3, and the number of training epochs is optimized to 51. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/neural%20network.ipynb" target = "_blank">here</a>.
 
-![Multilayer Perceptron (MLP)](/multi_layer_percep.png "Multilayer Perceptron (MLP) Diagram")
+![Multilayer Perceptron (MLP)](/multi_layer_percep.png "Multilayer perceptron (MLP) diagram")
 
 --------
 ## Results
