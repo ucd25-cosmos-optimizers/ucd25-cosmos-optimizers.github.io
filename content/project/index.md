@@ -75,7 +75,7 @@ Check out our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimiz
 
 A correlation heatmap of all of the features we extracted for the electrode channel A1 reveals two main useful insights.
 
-![Correlation Heatmap of Features A1](/correlation_heatmap.png "Initial Correlation Heatmap for Extracted Features on the A1 dataset")
+![Correlation Heatmap of Features A1](/correlation_heatmap.png "Initial correlation heatmap for extracted features on the A1 dataset")
 
 1. The heatmap shows some features that might be more important to the final model. In particular, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** have stronger correlations with the **label** (healthy or epileptic) compared to other features.
 2. Many features have a perfect linear correlation, or very weak correlation. As such, we can save computing power by selecting only the most important features to feed into our models.
@@ -88,11 +88,11 @@ Explore our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizer
 
 A correlation heatmap the these selected features show that most variables with 0 linear correlation to the labels have been removed. As expected, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** are all kept. 
 
-![New Correlation Heatmap of Features A1](/new_corr_heatmap.png "Correlation Heatmap for Selected Features on the A1 dataset")
+![New Correlation Heatmap of Features A1](/new_corr_heatmap.png "Correlation heatmap for selected features on the A1 dataset")
 
-![Split Correlation Heatmap of Features A1](/split_corr_heatmap.png "Split Correlation Heatmap of the A1 dataset: Healthy vs. Epileptic")
+![Split Correlation Heatmap of Features A1](/split_corr_heatmap.png "Split correlation heatmap of the A1 dataset: healthy vs. epileptic")
 
-![Difference Correlation Heatmap of Features A1](/diff_corr_heatmap.png "Difference in Correlation Heatmap of the A1 dataset: Healthy vs. Epileptic")
+![Difference Correlation Heatmap of Features A1](/diff_corr_heatmap.png "Difference in correlation heatmap of the A1 dataset: healthy vs. epileptic")
 
 Some correlations between the **spectral mean** and **basic statistical features** are significantly larger for epileptic eeg samples compared to healthy samples. These correlations can be used to classify eeg signals in our models.
 
@@ -102,13 +102,13 @@ We compared multiple classes of models to see which would be the most effective.
 
 **Logistic Regression**: A parametric model that fits a "best-fit" line, then uses that line to calculate the probability of categorical outcomes (in this case healthy or epileptic). View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/logistic%20regression.ipynb" target = "_blank">here</a>. 
 
-![Logistic Regression](/log_reg.png "Logistic Regression Top 10 Most Important Features")
+![Logistic Regression](/log_reg.png "Logistic regression top 10 most important features")
 
 **K-Nearest Neighbors**: A non-parametric model that classifies points based on the majority classification of their "k" nearest neighbors. In our model, "k" was optimized to  8. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/knn.ipynb" target = "_blank">here</a>.
 
 **Decision Tree**: A non-parametric model that makes a tree-like series of decisions conditionally classifying each instance. In our model, the depth of the tree was optimized to 3. Check out our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/decision%20tree.ipynb" target = "_blank">here</a>.
 
-![Decision Tree](/decision_tree.png "Decision Tree Conditionals")
+![Decision Tree](/decision_tree.png "Decision tree conditionals")
 
 **Random Forest**: A non-parametric model that takes the average of many decision trees, each trained on a random subset of data, reducing overfitting. In our model, the number of decision trees is optimized 200, and the maximum depth of each tree is optimized to 6. View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/random%20forest.ipynb" target = "_blank">here</a>. 
 
