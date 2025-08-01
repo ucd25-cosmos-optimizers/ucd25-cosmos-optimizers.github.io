@@ -131,6 +131,8 @@ We used a few different metrics to compare how well our models perform:
 
 **Recall**: A measure of how well a model is of finding all positive (epileptic) cases (correct positive predictions/all positive cases). In our case, recall measures how many actually epileptic cases the model can diagnose as epileptic.
 
+To us, recall is the most important metric, since undiagnosed and therefore untreated epilepsy can be very dangerous, sometimes even leading to death.
+
 | <div style="text-align: center">Model</div> | <div style="text-align: center; width:100px">Logistic Regression</div> | <div style="text-align: center; width:100px">K-NN</div> | <div style="text-align: center; width:100px">Model 3</div> |
 |:--------:|:-------:|:-------:|:-------:|
 | Accuracy  |   0.82    |   0.83    |    0.75   | 
@@ -178,6 +180,8 @@ We used a few different metrics to compare how well our models perform:
     </tr>
   </table>
 </div>
+
+Across all metrics, the **Multilayer Perceptron** performed the best, identifying cases correctly **88%** of the time, ensuring that the people it diagnoses as epileptic are actually epileptic **88%** of the time, and catching **88%** of actual epilepsy cases.
 
 --------
 
