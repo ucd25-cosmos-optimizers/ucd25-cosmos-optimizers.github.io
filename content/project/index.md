@@ -123,11 +123,11 @@ We compared multiple classes of models to see which would be the most effective.
 
 We used a few different metrics to compare how well our models perform:
 
-**Accuracy**: A measure of how often the model predicts the label correctly ($\frac{correct predictions}{total number of predictions}$).
+**Accuracy**: A measure of how often the model predicts the label correctly (correct predictions/total number of predictions).
 
-**Precision**: A measure of the accuracy of positive predictions made by the model ($\frac{correct positive predictions}{all positive predictions}$). In our case, precision measures the chance that someone actually has epilepsy if our model tells them they have epilepsy.
+**Precision**: A measure of the accuracy of positive predictions made by the model (correct positive predictions/all positive predictions). In our case, precision measures the chance that someone actually has epilepsy if our model tells them they have epilepsy.
 
-**Recall**: A measure of how well a model is of finding all positive (epileptic) cases ($\frac{correct positive predictions}{all positive cases}$). In our case, recall measures how many actually epileptic cases the model can diagnose as epileptic.
+**Recall**: A measure of how well a model is of finding all positive (epileptic) cases (correct positive predictions/all positive cases). In our case, recall measures how many actually epileptic cases the model can diagnose as epileptic.
 
 | <div style="text-align: center">Model</div> | <div style="text-align: center; width:100px">Logistic Regression</div> | <div style="text-align: center; width:100px">K-NN</div> | <div style="text-align: center; width:100px">Model 3</div> |
 |:--------:|:-------:|:-------:|:-------:|
