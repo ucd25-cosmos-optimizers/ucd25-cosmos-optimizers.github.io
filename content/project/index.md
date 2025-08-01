@@ -138,6 +138,7 @@ We compared multiple classes of models to see which would be the most effective.
       <th style="width:100px; text-align:center;">Decision Tree</th>
      <th style="width:100px; text-align:center;">Random Forest</th>
      <th style="width:100px; text-align:center;">Gradient Boosted Regression Tree</th>
+     <th style="width:100px; text-align:center;">Multilayer Perceptron</th>
     </tr>
     <tr>
       <td style="text-align:center;">Accuracy</td>
@@ -146,6 +147,7 @@ We compared multiple classes of models to see which would be the most effective.
       <td style="text-align:center;">0.75</td>
      <td style="text-align:center;">0.86</td>
      <td style="text-align:center;">0.87</td>
+     <td style="text-align:center;">0.88</td>
     </tr>
     <tr>
       <td style="text-align:center;">Precision</td>
@@ -154,6 +156,7 @@ We compared multiple classes of models to see which would be the most effective.
       <td style="text-align:center;">0.70</td>
      <td style="text-align:center;">0.86</td>
      <td style="text-align:center;">0.86</td>
+     <td style="text-align:center;">0.88</td>
     </tr>
     <tr>
       <td style="text-align:center;">Recall</td>
@@ -161,6 +164,7 @@ We compared multiple classes of models to see which would be the most effective.
       <td style="text-align:center;">0.88</td>
       <td style="text-align:center;">0.88</td>
      <td style="text-align:center;">0.86</td>
+     <td style="text-align:center;">0.88</td>
      <td style="text-align:center;">0.88</td>
     </tr>
   </table>
