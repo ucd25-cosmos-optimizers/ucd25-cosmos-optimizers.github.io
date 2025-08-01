@@ -1,5 +1,5 @@
 +++
-title = "Final Project: Automated Epilepsy Detection with EEG Data"
+title = "EEG and Epilepsy: Binary Classification"
 showReadingTime = false
 showDate = false
 showPagination = false
