@@ -176,6 +176,8 @@ To us, recall is the most important metric, since undiagnosed and therefore untr
 
 Across all metrics, the **Multilayer Perceptron** performed the best, identifying cases correctly **88%** of the time, ensuring that the people it diagnoses as epileptic are actually epileptic **88%** of the time, and catching **88%** of actual epilepsy cases.
 
+![Confusion Matrix](/confusion_matrix.png "Confusion Matrix showing results of testing data")
+
 --------
 
 ## Discussion
