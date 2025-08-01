@@ -121,6 +121,9 @@ We compared multiple classes of models to see which would be the most effective.
 --------
 ## Results
 
+We used a few different metrics to compare how well our models perform:
+
+**Accuracy**: A measure of how often the model predicts the label correctly ( \frac{number of correct predictions}{total number of predictions}
 
 | <div style="text-align: center">Model</div> | <div style="text-align: center; width:100px">Logistic Regression</div> | <div style="text-align: center; width:100px">K-NN</div> | <div style="text-align: center; width:100px">Model 3</div> |
 |:--------:|:-------:|:-------:|:-------:|
