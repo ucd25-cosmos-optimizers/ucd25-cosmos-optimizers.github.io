@@ -114,7 +114,7 @@ We compared multiple classes of models to see which would be the most effective.
 
 ![Random Forest](/rand_forest.png "Random forest top 10 most important features")
 
-**Gradient Boosted Regression Tree**: A non-parametric model like random forest, but each tree is trained sequentially off of the errors of the last tree. In our model, the maximum depth of each tree is optimized to 3, the number of decision trees is optimized to 300, and the learning rate of each tree is optimized to 0.5. See our code [here].
+**Gradient Boosted Regression Tree**: A non-parametric model like random forest, but each tree is trained sequentially off of the errors of the last tree. In our model, the maximum depth of each tree is optimized to 3, the number of decision trees is optimized to 300, and the learning rate of each tree is optimized to 0.5. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/gradient%20boosted%20regression%20tree.ipynb" target = "_blank">here</a>.
 
 --------
 ## Results
