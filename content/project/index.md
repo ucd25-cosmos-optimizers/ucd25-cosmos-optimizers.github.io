@@ -110,9 +110,11 @@ We compared multiple classes of models to see which would be the most effective.
 
 ![Decision Tree](/decision_tree.png "Decision tree conditionals")
 
-**Random Forest**: A non-parametric model that takes the average of many decision trees, each trained on a random subset of data, reducing overfitting. In our model, the number of decision trees is optimized 200, and the maximum depth of each tree is optimized to 6. View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/random%20forest.ipynb" target = "_blank">here</a>. 
+**Random Forest**: A non-parametric model that takes the average of many decision trees, each trained in parallel on a random subset of data, reducing overfitting. In our model, the maximum depth of each tree is optimized to 6 and the number of decision trees is optimized to 200. View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/random%20forest.ipynb" target = "_blank">here</a>. 
 
 ![Random Forest](/rand_forest.png "Random forest top 10 most important features")
+
+**Gradient Boosted Regression Tree**: A non-parametric model like random forest, but each tree is trained sequentially off of the errors of the last tree. In our model, the maximum depth of each tree is optimized to 3, the number of decision trees is optimized to 300, and the learning rate of each tree is optimized to 0.5. See our code [here].
 
 --------
 ## Results
@@ -133,6 +135,7 @@ We compared multiple classes of models to see which would be the most effective.
       <th style="width:100px; text-align:center;">K-NN</th>
       <th style="width:100px; text-align:center;">Decision Tree</th>
      <th style="width:100px; text-align:center;">Random Forest</th>
+     <th style="width:100px; text-align:center;">Gradient Boosted Regression Tree</th>
     </tr>
     <tr>
       <td style="text-align:center;">Accuracy</td>
@@ -140,12 +143,14 @@ We compared multiple classes of models to see which would be the most effective.
       <td style="text-align:center;">0.83</td>
       <td style="text-align:center;">0.75</td>
      <td style="text-align:center;">0.86</td>
+     <td style="text-align:center;">0.87</td>
     </tr>
     <tr>
       <td style="text-align:center;">Precision</td>
       <td style="text-align:center;">0.87</td>
       <td style="text-align:center;">0.81</td>
       <td style="text-align:center;">0.70</td>
+     <td style="text-align:center;">0.86</td>
      <td style="text-align:center;">0.86</td>
     </tr>
     <tr>
@@ -154,6 +159,7 @@ We compared multiple classes of models to see which would be the most effective.
       <td style="text-align:center;">0.88</td>
       <td style="text-align:center;">0.88</td>
      <td style="text-align:center;">0.86</td>
+     <td style="text-align:center;">0.88</td>
     </tr>
   </table>
 </div>
