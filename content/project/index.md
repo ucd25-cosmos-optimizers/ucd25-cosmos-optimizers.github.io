@@ -102,15 +102,15 @@ We compared multiple classes of models to see which would be the most effective.
 
 **Logistic Regression**: A parametric model that fits a "best-fit" line, then uses that line to calculate the probability of categorical outcomes (in this case healthy or epileptic). View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/logistic%20regression.ipynb" target = "_blank">here</a>. 
 
-![Logistic Regression](/log_reg.png "Logistic Regression of Feature Importance")
+![Logistic Regression](/log_reg.png "Logistic Regression Feature Importance")
 
 **K-Nearest Neighbors**: A non-parametric model that classifies points based on the majority classification of their "k" nearest neighbors. In our model, "k" was optimized to  8. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/knn.ipynb" target = "_blank">here</a>.
 
 **Decision Tree**: A non-parametric model that makes a tree-like series of decisions conditionally classifying each instance. In our model, the depth of the tree was optimized to 3. Check out our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/decision%20tree.ipynb" target = "_blank">here</a>.
 
-![Decision Tree](/decision_tree.png "Decision Tree Visualization")
+![Decision Tree](/decision_tree.png "Decision Tree Conditionals")
 
-**Random Forest**: A non-parametric model that takes the average of many decision trees, each trained on a random subset of data, reducing overfitting. In our model, the number of decision trees is optimized 200, and the maximum depth of each tree is optimized to 6. View our code [here]. 
+**Random Forest**: A non-parametric model that takes the average of many decision trees, each trained on a random subset of data, reducing overfitting. In our model, the number of decision trees is optimized 200, and the maximum depth of each tree is optimized to 6. View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/random%20forest.ipynb" target = "_blank">here</a>. 
 
 --------
 ## Results
