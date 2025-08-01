@@ -104,7 +104,7 @@ We compared multiple classes of models to see which would be the most effective.
 
 ![Logistic Regression](/log_reg.png "Logistic regression top 10 most important features")
 
-**K-Nearest Neighbors**: A non-parametric model that classifies points based on the majority classification of their "k" nearest neighbors. In our model, "k" was optimized to  8. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/knn.ipynb" target = "_blank">here</a>.
+**K-Nearest Neighbors (K-NN)**: A non-parametric model that classifies points based on the majority classification of their "k" nearest neighbors. In our model, "k" was optimized to  8. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/knn.ipynb" target = "_blank">here</a>.
 
 **Decision Tree**: A non-parametric model that makes a tree-like series of decisions conditionally classifying each instance. In our model, the depth of the tree was optimized to 3. Check out our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/decision%20tree.ipynb" target = "_blank">here</a>.
 
@@ -116,7 +116,7 @@ We compared multiple classes of models to see which would be the most effective.
 
 **Gradient Boosted Classification Tree**: A non-parametric model like random forest, but each tree is trained sequentially off of the errors of the last tree. In our model, the maximum depth of each tree is optimized to 3, the number of decision trees is optimized to 300, and the learning rate of each tree is optimized to 0.5. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/gradient%20boosted%20classification%20tree.ipynb" target = "_blank">here</a>.
 
-**Multilayer Perceptron**: A machine learning model and type of neural network. Our model consists of three hidden layers, bringing the feature dimensions from 75 to 64 to 32 to 16 to finally 1. Each hidden layer uses the ReLu activation function, and the output passes through a Sigmoid function to format it for binary classification. In our model, the dropout rate is optimized to 0.3, and the number of training epochs is optimized to 51. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/neural%20network.ipynb" target = "_blank">here</a>.
+**Multilayer Perceptron (MLP)**: A machine learning model and type of neural network. Our model consists of three hidden layers, bringing the feature dimensions from 75 to 64 to 32 to 16 to finally 1. Each hidden layer uses the ReLu activation function, and the output passes through a Sigmoid function to format it for binary classification. In our model, the dropout rate is optimized to 0.3, and the number of training epochs is optimized to 51. See our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/neural%20network.ipynb" target = "_blank">here</a>.
 
 --------
 ## Results
@@ -138,7 +138,7 @@ We compared multiple classes of models to see which would be the most effective.
       <th style="width:100px; text-align:center;">Decision Tree</th>
      <th style="width:100px; text-align:center;">Random Forest</th>
      <th style="width:100px; text-align:center;">Gradient Boosted Regression Tree</th>
-     <th style="width:100px; text-align:center;">Multilayer Perceptron</th>
+     <th style="width:100px; text-align:center;">MLP</th>
     </tr>
     <tr>
       <td style="text-align:center;">Accuracy</td>
