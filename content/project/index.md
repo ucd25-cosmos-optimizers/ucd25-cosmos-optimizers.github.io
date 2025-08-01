@@ -1,5 +1,5 @@
 +++
-title = "Final Project: Automated Epilepsy Detection: Using Machine Learning with EEG Data"
+title = "Final Project: Automated Epilepsy Detection with EEG Data"
 showReadingTime = false
 showDate = false
 showPagination = false
