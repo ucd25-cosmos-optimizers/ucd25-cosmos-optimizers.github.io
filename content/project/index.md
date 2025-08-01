@@ -188,3 +188,6 @@ Across all metrics, the **Multilayer Perceptron** performed the best, identifyin
 ## Discussion
 
 While neural nets like Multilayer Perceptrons are more like "black boxes," we can look to some other models like **Logistic Regression** (82% accuracy) and **Random Forest** (87% accuracy) to see which features are most important in classification.
+
+![Comparison of Feature Importance](/discussion.png "Comparing feature importance between logistic regression and random forest models")
+
