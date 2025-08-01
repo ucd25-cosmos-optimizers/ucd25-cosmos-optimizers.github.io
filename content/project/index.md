@@ -65,7 +65,7 @@ Even with filtered data, the number of timepoints (28,500) is too many to fit in
 
 **Spectral features (frequency domain features)** like spectral centroid (frequency-weighted average), spectral bandwidth, spectral rolloff (85% cutoff rate), and peak frequency.
 
-We also separated each eeg wave into its composite brain waves. Because our data was downsampled to 20 Hz, as per the Nyquist-Shannon Sampling Theorem, we are only able to accurately capture frequencies from 0-10 Hz. This allows us to evaluate delta (0.5-4 Hz), theta (4-7 Hz), and parts of alpha (8-12 Hz) waves. We did not have the data to evaluate beta (12-30 Hz) and gamma (30-100 Hz) waves. The low-frequency brain waves we did evaluate are associated with subconscious or relaxed brains states. We extracted **basic statistical features** regarding the composite delta, theta, and low alpha waves. 
+We also separated each EEG wave into its composite brain waves. Because our data was downsampled to 20 Hz, as per the Nyquist-Shannon Sampling Theorem, we are only able to accurately capture frequencies from 0-10 Hz. This allows us to evaluate delta (0.5-4 Hz), theta (4-7 Hz), and parts of alpha (8-12 Hz) waves. We did not have the data to evaluate beta (12-30 Hz) and gamma (30-100 Hz) waves. The low-frequency brain waves we did evaluate are associated with subconscious or relaxed brains states. We extracted **basic statistical features** regarding the composite delta, theta, and low alpha waves. 
 
 All together, we preliminarily extracted 41 features per electrode channel, 205 features in total.
 
@@ -86,7 +86,7 @@ We selected the top 15 features from each electrode channel using the **F-Test**
 
 Explore our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/feature%20selection.ipynb" target = "_blank">here</a>.
 
-A correlation heatmap the these selected features show that most variables with 0 linear correlation to the labels have been removed. As expected, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** are all kept. 
+A correlation heatmap of these selected features show that most variables with 0 linear correlation to the labels have been removed. As expected, the **zero crossing rate**, **number of peaks**, **spectral centroid**, **spectral bandwidth**, and **spectral rolloff** are all kept. 
 
 ![New Correlation Heatmap of Features A1](/new_corr_heatmap.png "Correlation heatmap for selected features on the A1 dataset")
 
@@ -111,6 +111,8 @@ We compared multiple classes of models to see which would be the most effective.
 ![Decision Tree](/decision_tree.png "Decision tree conditionals")
 
 **Random Forest**: A non-parametric model that takes the average of many decision trees, each trained on a random subset of data, reducing overfitting. In our model, the number of decision trees is optimized 200, and the maximum depth of each tree is optimized to 6. View our code <a href = "https://github.com/ucd25-cosmos-optimizers/optimizers/blob/chloe/notebooks/random%20forest.ipynb" target = "_blank">here</a>. 
+
+![Random Forest](/rand_forest.png "Random Forest of Feature Importance")
 
 --------
 ## Results
