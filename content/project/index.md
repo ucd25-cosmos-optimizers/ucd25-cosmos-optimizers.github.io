@@ -12,7 +12,7 @@ showPagination = false
 
 Epilepsy, also known as seizure disorder, is a medical condition characterized by recurring seizures due to abnormal electrical activity in the brain. In the United States, epilepsy affects almost 3 million adults. There are many ways to detect epileptic behavior in the brain, including electroencephalogram (**EEG**), magnetic resonance imaging (**MRI**), and computed tomography (**CT**) scans. 
 
-However, what makes EEG such a popular method to measure brain activity is its excellent temporal resolution, relatively low cost, and noninvasive nature. It is able to measure brain activity by recording electrical activity through a patient's skull and scalp. Despite this, symptoms of epilepsy are not guaranteed to be present at all times of data collection. Thus, this process can take long periods of monitoring, generating large amounts of data.
+However, what makes EEG such a popular method to measure brain activity is its excellent temporal resolution, relatively low cost, and **noninvasive nature**. It is able to measure brain activity by recording electrical activity through a patient's skull and scalp. Despite this, symptoms of epilepsy are not guaranteed to be present at all times of data collection. Thus, this process can take long periods of monitoring, generating large amounts of data.
 
 ![Process of EEG Detection](/eeg_image.png "EEG signals capturing brain activity to detect epilepsy")
 
@@ -22,7 +22,7 @@ Our motivation for this project is to be able to automate the process of identif
 
 Automation with identification of EEG is especially important because of some difficulties when dealing with EEG, burdening experts and reducing efficiency: 
 
- 1. There are small amounts of epilepsy data available simply due to the infrequency of seizure       occurences.
+ 1. There are small amounts of epilepsy data available simply due to the infrequency of seizure occurences.
  2. Presence of noise and artifacts in the data disturbs learning brain patterns during ictal cases.
  3. Inconsistency in seizure activitation among different patients also hinders pattern learning.  
 
@@ -33,15 +33,13 @@ Following a structured data science pipeline, our objective is to build a binary
 
  Our data is sourced from hospital EEG recordings of healthy and epileptic patients, recorded across five electrode channels. The exact electrode channels are as follows:
  
- - A1: Placed on the ear to measure the average of all electrodes
+ - A1: Placed on the left ear to measure the average of all electrodes
  - C3: Placed on the left primary motor cortex, measures motor movement of the right hand
  - C4: Placed on the right primary motor cortex, measures motor movement of the left hand
  - CZ: Placed on the center top of the head, measures possible temporal lobe epilepsy
  - F3: Placed on the left frontal lobe, measures motor control and imagined movement
 
 ![EEG Nodes for Dataset](/eeg_nodes.png "Electrode channels collected in the EEG dataset")
-  
-These five electrodes generally measure focal seizures, which are the type of seizures we will be using in this project to classify epilepsy.
 
 The data contains 411 recordings of people (**epochs**) per channel over 25 minutes at a sampling frequency of 200 Hz. Labels of healthy (visualized in blue) and epileptic (visualized in red) were given. 
 
@@ -191,7 +189,7 @@ Across all metrics, the **Multilayer Perceptron** performed the best, identifyin
 
 ## Discussion
 
-While neural nets like Multilayer Perceptrons are more like "black boxes," we can look to some other models like **Logistic Regression** (82% accuracy) and **Random Forest** (87% accuracy) to see which features are most important in classification.
+Although the Multilayer Perceptrons was most performant on this dataset, the decipherability of the model is one major drawback. The neural network acts as a "black box," giving results that, although correct, are very uninterpretable. Looking into the other models, we find that their accuracy, precision, and recall are very comparable to that of the neural network, showing that the features we extracted from the data plays a much larger role than the archtecture of our models. Two models, **Logistic Regression** (82% accuracy) and **Random Forest Classification** (87% accuracy), provide easier ways to visualize which features are most important in classification.
 
 ![Comparison of Feature Importance](/discussion.png "Comparing feature importance between logistic regression and random forest models")
 
